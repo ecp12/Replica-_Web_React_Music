@@ -29,9 +29,7 @@ const mainOne = () => {
       </div>
       <div className="mainGen">
         <div className="blockOne">
-          <div className="imgGirl">
             <img className="imgGirl" src={imgGirl} alt="" />
-          </div>
           <div className="paragrafOne">
             <h1>Feel The Music</h1>
             <p className="paragraft">Stream over 20 thousand song with one click</p>
@@ -41,7 +39,7 @@ const mainOne = () => {
           </div>
         </div>
       </div>
-      <div className="meinDos">
+      <div className="mainDos">
         <div>
             <div className="discover">Discover new music</div>
             <div className="iconTres">

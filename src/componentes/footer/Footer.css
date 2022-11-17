@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 99%;
+    color: white;
+    background-color: #202027;
+    padding: 10px;
+    z-index: 3;
+}
+.fotterUno{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.contact{
+    margin-left: 20px;
+}
+
+.footerDos{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoUno{
+    margin-left: 20px;
+}
+.logoDos{
+    margin-left: 20px;
+}

@@ -22,7 +22,7 @@ const maintwo = () => {
           <div className="imputGen">
            <div className="nameImputs">Name:</div><input className="imputs" type="text" />
            <div className="nameImputs">Email:</div><input className="imputs" type="text" />
-           <div className="nameImputs">Password:</div><input className="imputs" type="text" />
+           <div className="nameImputs">Password:</div><input  className="imputs" type="password" />
            <button class="buttons accep-button" id="accep-button">
               Join Now
             </button>

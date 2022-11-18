@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto&display=swap');
 
-@media (max-width: 600px) {
+@media (max-width:390px) and (max-width:844px) {
+    .navGen{
+        width: 68% !important;
+    }
     .mainGen{
         width: 90% !important;
         min-height: 70vh !important;
@@ -13,10 +16,101 @@
         width: 80% !important;
         margin-left: 0 !important;
      }
-     .button{
-        width: 90px!important;
-     }
+     
      .circuloGen{
+        margin: auto;
+        width: 80%;
+     }
+     .circuloUno{
+        height: 40px !important;
+        width: 40px !important;
+        margin-top: 395px !important;
+     }
+     .circuloDos{
+        height: 40px !important;
+        width: 40px !important;
+     }
+     .circuloTres{
+        height: 100px!important;
+        width: 100px !important;
+        bottom: -460px !important;
+        left: 12px !important;
+        margin-left: 0 !important;
+     }
+     .imgGirl{
+      display: none;
+        
+     }
+     .mainDos{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        padding: 0px !important;
+        min-height: 80vh !important ;
+     }
+     .discover{
+        margin: auto !important;
+        text-align: center !important;
+        width: -webkit-fill-available !important;
+     }
+     .byJoing {
+        text-align: center !important;   
+    }
+
+    .twoMain{
+        min-height: vh !important;
+    }
+    .maintwoGen{
+        width: 70% !important;
+    }
+    .circuloGene{
+        display: none !important;
+    }
+    .parraf{
+        margin-top: 30px!important;
+    }
+    .genJouin{
+        flex-direction: column !important;
+    }
+     .joinThe{
+         margin-right: 0 !important;
+     }
+     .imputGen{
+        width: 250px !important;
+     }
+     .buttons {
+        width: 250px !important;
+     }
+    .footer{
+        width: 93%!important;
+    }
+
+
+    
+
+}
+
+@media (max-width: 768px  ) and (max-width:1024px ) {
+    .navGen{
+        width: 80% !important;
+    }
+    .mainGen{
+        width: 90% !important;
+        min-height: 70vh !important;
+        align-items: center !important;
+        
+
+    }
+     .paragrafOne{
+        margin: auto;
+        width: 80% !important;
+        margin-left: 0 !important;
+     }
+     
+    .imgGirl{
+        height: 390px !important;
+    }
+    .circuloGen{
         margin: auto;
         width: 80%;
      }
@@ -33,11 +127,7 @@
         height: 100px!important;
         width: 100px !important;
         bottom: -460px !important;
-        left: px;
-     }
-     .imgGirl{
-      display: none;
-        
+        left: -3px !important;
      }
      .mainDos{
         display: flex !important;
@@ -46,22 +136,89 @@
         padding: 0px !important;
         min-height: 80vh !important ;
      }
+     .iconTres{
+        justify-content: center !important;
+     }
      .discover{
         margin: auto !important;
         text-align: center !important;
+        width: -webkit-fill-available !important;
      }
      .byJoing {
         text-align: center !important;
     }
-    
-    
-    
+    .footer{
+        width: 98%!important;
+    }
 
 }
 
+@media  (max-width: 1280px)  and (min-width:800px ) {
+    .navGen{
+        width: 90% !important;
+    }
+    
+    .mainGen{
+        width: 90% !important;
+        min-height: 70vh !important;
+        align-items: center !important;
+    }
+     .paragrafOne{
+        margin: auto;
+        width: 80% !important;
+        margin-left: 0 !important;
+     }
+     
+    .imgGirl{
+        height: 390px !important;
+    }
+    .circuloGen{
+        margin: auto;
+        width: 80%;
+     }
+     .circuloUno{
+        height: 280px !important;
+        width: 280px !important;
+        margin-top: 175px !important;
+     }
+     .circuloDos{
+        height: 280px !important;
+        width: 280px !important;
+     }
+     .circuloTres{
+        height: 300px!important;
+        width: 300px !important;
+        bottom: -190px !important;
+        left: 6px;
+     }
+     .mainDos{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        padding: 0px !important;
+        min-height: 80vh !important ;
+     }
+     .iconTres{
+        justify-content: center !important;
+     }
+     .discover{
+        margin: auto !important;
+        text-align: center !important;
+        width: -webkit-fill-available !important;
+     }
+     .byJoing {
+        text-align: center !important;
+    }
+    .footer{
+        width: 100%!important;
+    }
+}
+
+
+
 .mainGen {
   margin: auto;
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -94,53 +251,26 @@ h1 {
 .imgGirl {
   height: 850px;
   margin-top: 40px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .accept-button {
   background-color: #1762a7;
   border: none;
   color: white;
+  z-index: 4;
 }
 
 .button {
   height: 35px;
   width: 100px;
   border-radius: 6px;
-  transition: all 1s ease;
+  transition: all 0.1s ease;
 }
 
 .button:hover {
   background-color: #2180d8;
   filter: brightness(115%);
-}
-
-.popup {
-  position: fixed;
-  text-align: center;
-  overflow: hidden;
-  min-width: 24em;
-  padding: 1em;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  border-radius: 5px;
-  border: 5px solid black;
-  transition: all 1s ease-in-out;
-  z-index: 9999;
-}
-
-.top {
-  top: 0;
-  margin: 5px 5px 0px 0px;
-}
-
-.bottom {
-  bottom: 0;
-  margin: 0px 5px 5px 0px;
-}
-
-.hidden {
-  left: 100vw;
 }
 
 .circuloGen {
@@ -238,7 +368,7 @@ h1 {
 
 
 .link{
-    font-family: "Poppins", sans-serif;
+    
     text-decoration: none;
     cursor: pointer;
     color: white;
